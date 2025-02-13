@@ -1,7 +1,7 @@
 # Проект «Большое путешествие»
 
 * Студент: [Руслан Смирнов](https://up.htmlacademy.ru/ecmascript-individual/2/user/1478577).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Гущина](https://htmlacademy.ru/profile/vanastasiya).
 
 ---
 
