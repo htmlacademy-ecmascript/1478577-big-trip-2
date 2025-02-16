@@ -1,0 +1,17 @@
+const path = require('path');
+const CopyPlagin = require('copy-webpack-plugin');
+
+module.export = {
+  entry: './src/main.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(),
+    clean: true,
+  },
+  devtool: 'source-map',
+  plugins: [
+    new CopyPlagin({
+      patterns: [{form: 'public'}]
+    }),
+  ],
+};
