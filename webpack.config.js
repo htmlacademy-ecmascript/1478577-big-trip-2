@@ -1,17 +1,17 @@
 const path = require('path');
-const CopyPlagin = require('copy-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
-module.export = {
+module.exports = {
   entry: './src/main.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(),
+    path: path.resolve(__dirname, 'build'),
     clean: true,
   },
   devtool: 'source-map',
   plugins: [
-    new CopyPlagin({
-      patterns: [{form: 'public'}]
+    new CopyPlugin({
+      patterns: [{ from: 'public' }]
     }),
   ],
 };
